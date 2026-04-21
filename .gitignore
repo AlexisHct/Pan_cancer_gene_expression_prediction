@@ -1,0 +1,14 @@
+# Données massives 
+data/
+*.csv
+*.joblib
+*.tar.gz
+*.zip
+
+# Environnement virtuel et cache
+__pycache__/
+venv/
+.env
+
+# MLflow
+mlruns/
