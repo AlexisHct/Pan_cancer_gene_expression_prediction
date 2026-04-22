@@ -1,6 +1,16 @@
-# Data Science
-pandas
-numpy
-scikit-learn
-seaborn
-plotly
+# --- Manipulation de données ---
+pandas==2.3.3
+numpy==2.2.6
+
+# --- Machine Learning & Pipeline ---
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.3
+
+# --- Tracking & MLOps ---
+mlflow==3.11.1
+
+# --- Visualisation ---
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.7.0
