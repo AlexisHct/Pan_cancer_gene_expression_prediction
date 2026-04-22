@@ -53,6 +53,7 @@ python src/predict.py
 
 ## Structure du Dépôt
  
+* notebooks : Scripts d'exploration des données
 * src/training.py : Pipeline d'entraînement, gestion des poids et logging MLflow.
 * src/predict.py : Script d'inférence autonome pour le diagnostic de nouveaux échantillons.
 * models/ : Modèles sérialisés (.joblib) pour une utilisation en production.

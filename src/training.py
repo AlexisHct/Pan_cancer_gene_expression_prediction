@@ -75,6 +75,8 @@ if __name__ == "__main__":
                     xticklabels=encoder.classes_, 
                     yticklabels=encoder.classes_, cmap='Blues')
         plt.title(f"Matrice de Confusion (Acc: {acc:.2%})")
+        plt.xlabel('Classes Prédites', fontsize=12, fontweight='bold')
+        plt.ylabel('Classes Réelles', fontsize=12, fontweight='bold')
         
         # Sauvegarde temporaire de l'image pour l'envoyer à MLflow
         temp_plot_path = "models/confusion_matrix.png"
