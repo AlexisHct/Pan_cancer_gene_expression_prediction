@@ -1,3 +1,13 @@
+"""
+Project: Drug Sensitivity Prediction Pipeline
+Copyright (C) 2026 Alexis Hucteau
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split

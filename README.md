@@ -1,3 +1,6 @@
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
 # Pan-Cancer Gene Expression Classification
 ## Présentation du Projet
 
@@ -58,3 +61,11 @@ python src/predict.py
 * src/predict.py : Script d'inférence autonome pour le diagnostic de nouveaux échantillons.
 * models/ : Modèles sérialisés (.joblib) pour une utilisation en production.
 * requirements.txt : Liste des dépendances figées pour la reproductibilité.
+
+#### License
+
+This project follows a dual-licensing strategy:
+
+    Software & Code: All source code (.py, .ipynb, scripts) is licensed under the GNU GPL v3.
+
+    Documentation & Analysis: All descriptive text, methodologies, and visual results are licensed under CC BY-NC-SA 4.0. For commercial inquiries or custom deployment of this pipeline, please contact me via Malt or LinkedIn
